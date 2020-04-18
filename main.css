@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/images/modern-affliction-guvnhd3hbxw-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+/*//////////// MAIN FORM / CONTENT \\\\\\\\\\\\*/
+
+.bio {
+  width: 60%;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 40px;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.bio-image {
+  border-radius: 50%;
+}
+
+.bio h2 {
+  margin-top: 50px;
+  font-size: xx-large;
+  font-weight: 400;
+}
+
+
+
+/*//////////// CONTACT FORM //////////////////////*/
+
+.c-form {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.c-form h1 {
+  font-size: 50px;
+}
+
+form {
+  margin-top: 50px;
+}
+
+.form-control {
+  width: 500px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: #440381;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+form .submit:hover {
+  background-color: #6d09f0;
+  cursor: pointer;
+}
+
+/*////////////// SOCIAL MEDIA ICONS ///////////////*/
+
+.social-media a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d0d0eb;
+  margin: 20px 10px;
+  border-radius: 40%;
+}
+
+.social-media {
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.social-media i {
+  color: #000000;
+}
+
+.social-media a:hover {
+  background-color: #dd96eb54;
+}
+
+footer {
+  margin: 2%;
+  text-align: center;
+}
+/* .image-box {
+          border-radius: 50%;
+          width: 500px;
+          height: 500px;
+          background: rgba(0, 0, 0, 0.4);
+          float: right;
+          margin: 50px;
+          padding: 30px;
+          text-align: center;
+        }
+        
+        .hello{
+          width: 500px;
+          height: 500px;
+          background: rgba(0, 0, 0, 0.4);
+          float: right;
+          margin: 50px;
+          padding: 30px;
+        } */
